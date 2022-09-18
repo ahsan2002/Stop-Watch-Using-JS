@@ -13,7 +13,7 @@ let btnstart=document.querySelector(".btn-start");
 let btnstop=document.querySelector(".btn-stop");
 let btnreset=document.querySelector(".btn-reset");
 
-
+//events
 btnstart.addEventListener("click",()=>{
     interval=setInterval(start,1000);
 }
@@ -32,6 +32,7 @@ btnreset.addEventListener("click",()=>{
    gethr.innerHTML= `0` + hr;
 
 });
+
 
 //functions
 var start=()=>{
